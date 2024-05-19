@@ -55,7 +55,7 @@ class ModelTrainer:
                 "RandomForest":{
                     # 'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
                     # 'max_features':['sqrt','log2',None],
-                    'n_estimators': [8,16,32,64,128,256]
+                    'n_estimators': [8,16,32,64,128,256] # no of DecisionTree models in the forest
                 },
                 "GradientBoosting":{
                     # 'loss':['squared_error', 'huber', 'absolute_error', 'quantile'],
